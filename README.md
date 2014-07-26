@@ -17,7 +17,7 @@ For example, setting the key `themeBackground` with the value `main.titleLabel.i
 }
 ```
 
-# Setting up
+# Setup
 
 Simply add the files from the `DZLThemer` directory into your project and create a theme dictionary in a plist file.
 
