@@ -1,6 +1,8 @@
 DZLThemer
 =========
 
+This project is explained in more detail in [this blog post](http://samdods.github.io/blog/2014/07/26/theming/).
+
 Adds support for user defined runtime attributes to be set in Interface Builder, which will correspond to values in a theme plist.
 
 <img src="runtime-attributes.png" title="User Defined Runtime Attributes in Xcode's Interface Builder"/>
