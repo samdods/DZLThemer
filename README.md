@@ -15,6 +15,8 @@ In `-application:didFinishLaunchingWithOptions:` method in your app delegate, yo
 [DZLThemer shared].plistFileName = @"DarkTheme"; // example file name
 ```
 
+> Note, it's more likely for this filename to come from the build settings. It could be configured as a GCC Preprocessor Macro or otherwise injected into the build.
+
 # UIKit elements supported
 
 ## UIView
