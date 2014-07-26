@@ -7,9 +7,9 @@ For example, setting the key `themeBackground` with the value `main.titleLabel.i
 
 ```json
 "main" : {
-  titleLabel : {
-    iphone : {
-      bgColorHex : "a3fe00"
+  "titleLabel" : {
+    "iphone" : {
+      "bgColorHex" : "a3fe00"
     }
   }
 }
