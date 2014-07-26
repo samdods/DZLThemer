@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>main</key>
+	<dict>
+		<key>titleLabel</key>
+		<dict>
+			<key>iphone</key>
+			<dict>
+				<key>fontName</key>
+				<string>Gill Sans</string>
+				<key>fontSize</key>
+				<integer>25</integer>
+				<key>colorHex</key>
+				<string>990000</string>
+				<key>lineSpacing</key>
+				<integer>0</integer>
+				<key>bgColorHex</key>
+				<string>e1e1e1</string>
+			</dict>
+		</dict>
+		<key>view</key>
+		<dict>
+			<key>iphone</key>
+			<dict>
+				<key>bgColorHex</key>
+				<string>ffeeee</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

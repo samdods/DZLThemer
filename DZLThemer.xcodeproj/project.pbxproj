@@ -21,6 +21,11 @@
 		EA11996019831C5C009AAB36 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA11994219831C5C009AAB36 /* UIKit.framework */; };
 		EA11996819831C5C009AAB36 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA11996619831C5C009AAB36 /* InfoPlist.strings */; };
 		EA11996A19831C5C009AAB36 /* DZLThemerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA11996919831C5C009AAB36 /* DZLThemerTests.m */; };
+		EA11997619831C82009AAB36 /* DZLThemer.m in Sources */ = {isa = PBXBuildFile; fileRef = EA11997519831C82009AAB36 /* DZLThemer.m */; };
+		EA11997D198327DA009AAB36 /* UILabel+DZLThemer.m in Sources */ = {isa = PBXBuildFile; fileRef = EA11997C198327DA009AAB36 /* UILabel+DZLThemer.m */; };
+		EA11997F198328DC009AAB36 /* DarkTheme.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA11997E198328DC009AAB36 /* DarkTheme.plist */; };
+		EA11998219832D39009AAB36 /* UIView+DZLThemer.m in Sources */ = {isa = PBXBuildFile; fileRef = EA11998119832D39009AAB36 /* UIView+DZLThemer.m */; };
+		EA11998419832D98009AAB36 /* LightTheme.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA11998319832D98009AAB36 /* LightTheme.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,14 @@
 		EA11996519831C5C009AAB36 /* DZLThemerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DZLThemerTests-Info.plist"; sourceTree = "<group>"; };
 		EA11996719831C5C009AAB36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EA11996919831C5C009AAB36 /* DZLThemerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DZLThemerTests.m; sourceTree = "<group>"; };
+		EA11997419831C82009AAB36 /* DZLThemer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZLThemer.h; sourceTree = "<group>"; };
+		EA11997519831C82009AAB36 /* DZLThemer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZLThemer.m; sourceTree = "<group>"; };
+		EA11997B198327DA009AAB36 /* UILabel+DZLThemer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+DZLThemer.h"; sourceTree = "<group>"; };
+		EA11997C198327DA009AAB36 /* UILabel+DZLThemer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+DZLThemer.m"; sourceTree = "<group>"; };
+		EA11997E198328DC009AAB36 /* DarkTheme.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DarkTheme.plist; sourceTree = "<group>"; };
+		EA11998019832D39009AAB36 /* UIView+DZLThemer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DZLThemer.h"; sourceTree = "<group>"; };
+		EA11998119832D39009AAB36 /* UIView+DZLThemer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DZLThemer.m"; sourceTree = "<group>"; };
+		EA11998319832D98009AAB36 /* LightTheme.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LightTheme.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +125,14 @@
 		EA11994419831C5C009AAB36 /* DZLThemer */ = {
 			isa = PBXGroup;
 			children = (
+				EA11997319831C63009AAB36 /* DZLThemer */,
 				EA11994D19831C5C009AAB36 /* AppDelegate.h */,
 				EA11994E19831C5C009AAB36 /* AppDelegate.m */,
 				EA11995019831C5C009AAB36 /* Main.storyboard */,
 				EA11995319831C5C009AAB36 /* ViewController.h */,
 				EA11995419831C5C009AAB36 /* ViewController.m */,
+				EA11997E198328DC009AAB36 /* DarkTheme.plist */,
+				EA11998319832D98009AAB36 /* LightTheme.plist */,
 				EA11995619831C5C009AAB36 /* Images.xcassets */,
 				EA11994519831C5C009AAB36 /* Supporting Files */,
 			);
@@ -150,6 +166,27 @@
 				EA11996619831C5C009AAB36 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA11997319831C63009AAB36 /* DZLThemer */ = {
+			isa = PBXGroup;
+			children = (
+				EA1199771983269B009AAB36 /* UIKit Categories */,
+				EA11997419831C82009AAB36 /* DZLThemer.h */,
+				EA11997519831C82009AAB36 /* DZLThemer.m */,
+			);
+			path = DZLThemer;
+			sourceTree = "<group>";
+		};
+		EA1199771983269B009AAB36 /* UIKit Categories */ = {
+			isa = PBXGroup;
+			children = (
+				EA11997B198327DA009AAB36 /* UILabel+DZLThemer.h */,
+				EA11997C198327DA009AAB36 /* UILabel+DZLThemer.m */,
+				EA11998019832D39009AAB36 /* UIView+DZLThemer.h */,
+				EA11998119832D39009AAB36 /* UIView+DZLThemer.m */,
+			);
+			path = "UIKit Categories";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,8 +265,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA11998419832D98009AAB36 /* LightTheme.plist in Resources */,
 				EA11995719831C5C009AAB36 /* Images.xcassets in Resources */,
 				EA11994919831C5C009AAB36 /* InfoPlist.strings in Resources */,
+				EA11997F198328DC009AAB36 /* DarkTheme.plist in Resources */,
 				EA11995219831C5C009AAB36 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,7 +288,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA11998219832D39009AAB36 /* UIView+DZLThemer.m in Sources */,
+				EA11997D198327DA009AAB36 /* UILabel+DZLThemer.m in Sources */,
 				EA11995519831C5C009AAB36 /* ViewController.m in Sources */,
+				EA11997619831C82009AAB36 /* DZLThemer.m in Sources */,
 				EA11994F19831C5C009AAB36 /* AppDelegate.m in Sources */,
 				EA11994B19831C5C009AAB36 /* main.m in Sources */,
 			);
