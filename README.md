@@ -15,7 +15,7 @@ In `-application:didFinishLaunchingWithOptions:` method in your app delegate, yo
 [DZLThemer shared].plistFileName = @"DarkTheme"; // example file name
 ```
 
-# UIKit elements supported so far
+# UIKit elements supported
 
 ## UIView
 
@@ -31,3 +31,14 @@ User defined runtime attribute `themeText` requires the following keys defined a
 `fontSize` - must be a number
 `lineSpacing` - must be a number
 `colorHex` - must be a string of hex digits, 6 or 8 characters long, e.g. 00a2ff or 0x11ffe1e9
+
+## UIButton
+
+User defined runtime attribute `themeText` requires the following keys defined at key path:
+
+`fontName` - must be the name of a valid font
+`fontSize` - must be a number
+`colorHex` - must be a string of hex digits, 6 or 8 characters long, e.g. 00a2ff or 0x11ffe1e9
+
+
+
