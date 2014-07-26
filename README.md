@@ -6,10 +6,12 @@ Adds support for user defined runtime attributes to be set in Interface Builder,
 For example, setting the key `themeBackground` with the value `main.titleLabel.iphone` requires the theme dictionary to contain the following key path to the `bgColorHex` key:
 
 ```json
-"main" : {
-  "titleLabel" : {
-    "iphone" : {
-      "bgColorHex" : "a3fe00"
+{
+  "main" : {
+    "titleLabel" : {
+      "iphone" : {
+        "bgColorHex" : "a3fe00"
+      }
     }
   }
 }
