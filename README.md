@@ -3,12 +3,14 @@ DZLThemer
 
 Adds support for user defined runtime attributes to be set in Interface Builder, which will correspond to values in a theme plist.
 
-For example, setting the key `themeBackground` with the value `main.titleLabel.iphone` requires the theme dictionary to contain the following key path to the `bgColorHex` key:
+<img src="runtime-attributes.png" title="User Defined Runtime Attributes in Xcode's Interface Builder"/>
+
+In the example above, setting the key `themeBackground` with the value `main.view.iphone` requires the theme dictionary to contain the following key path to the `bgColorHex` key:
 
 ```json
 {
   "main" : {
-    "titleLabel" : {
+    "view" : {
       "iphone" : {
         "bgColorHex" : "a3fe00"
       }
@@ -16,6 +18,10 @@ For example, setting the key `themeBackground` with the value `main.titleLabel.i
   }
 }
 ```
+
+By configuring in a plist the aesthetic properties of my interface elements, I can easily swap in a new plist to completely change the look and feel of the entire app.
+
+And by setting the reference "key" in Interface Builder, I keep the code completely clutter-free of interface configuration code.
 
 # Setup
 
