@@ -9,11 +9,20 @@
 #import "AppDelegate.h"
 #import "DZLThemer.h"
 
+#define Stringify(x) @#x
+#define StringFromDefinedValue(x) Stringify(x)
+
+#ifndef THEME_PLIST
+#error THEME_PLIST undefined
+#endif
+static NSString *const ThemePlistFileName = StringFromDefinedValue(THEME_PLIST);
+
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-  [DZLThemer shared].plistFileName = @"LightTheme";
+  [DZLThemer shared].plistFileName = ThemePlistFileName;
   return YES;
 }
 

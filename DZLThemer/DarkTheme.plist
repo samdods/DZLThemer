@@ -4,6 +4,18 @@
 <dict>
 	<key>main</key>
 	<dict>
+		<key>button</key>
+		<dict>
+			<key>iphone</key>
+			<dict>
+				<key>fontName</key>
+				<string>Futura</string>
+				<key>fontSize</key>
+				<integer>20</integer>
+				<key>colorHex</key>
+				<string>edff00</string>
+			</dict>
+		</dict>
 		<key>titleLabel</key>
 		<dict>
 			<key>iphone</key>
