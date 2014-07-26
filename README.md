@@ -3,7 +3,17 @@ DZLThemer
 
 Adds support for user defined runtime attributes to be set in Interface Builder, which will correspond to values in a theme plist.
 
-For example, setting the key `themeBackground` with the value `main.titleLabel.iphone` requires the theme dictionary to contain 
+For example, setting the key `themeBackground` with the value `main.titleLabel.iphone` requires the theme dictionary to contain the following key path to the `bgColorHex` key:
+
+```json
+main : {
+  titleLabel : {
+    iphone : {
+      bgColorHex : "a3fe00"
+    }
+  }
+}
+```
 
 # Setting up
 
