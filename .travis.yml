@@ -1,0 +1,4 @@
+language: objective-c
+script:
+- xctool -project DZLThemer.xcodeproj -scheme "DZLThemer Dark" -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+- xctool -project DZLThemer.xcodeproj -scheme "DZLThemer Light" -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4FF37EDB19AF590900C22C7C /* DZLThemer Light-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4FF37EDA19AF590900C22C7C /* DZLThemer Light-Info.plist */; };
+		4FF37EDC19AF591700C22C7C /* DZLThemer Dark-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA11994619831C5C009AAB36 /* DZLThemer Dark-Info.plist */; };
 		EA11993F19831C5C009AAB36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA11993E19831C5C009AAB36 /* Foundation.framework */; };
 		EA11994119831C5C009AAB36 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA11994019831C5C009AAB36 /* CoreGraphics.framework */; };
 		EA11994319831C5C009AAB36 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA11994219831C5C009AAB36 /* UIKit.framework */; };
@@ -55,6 +57,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4FF37EDA19AF590900C22C7C /* DZLThemer Light-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DZLThemer Light-Info.plist"; sourceTree = "<group>"; };
 		EA11993B19831C5C009AAB36 /* DZLThemer Dark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DZLThemer Dark.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA11993E19831C5C009AAB36 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EA11994019831C5C009AAB36 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -83,7 +86,6 @@
 		EA11998119832D39009AAB36 /* UIView+DZLThemer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DZLThemer.m"; sourceTree = "<group>"; };
 		EA11998319832D98009AAB36 /* LightTheme.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LightTheme.plist; sourceTree = "<group>"; };
 		EA11999A1983858D009AAB36 /* DZLThemer Light.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DZLThemer Light.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA11999B1983858D009AAB36 /* DZLThemer Light-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "DZLThemer Light-Info.plist"; path = "/Users/sdods/code/DZLThemer/DZLThemer/DZLThemer Light-Info.plist"; sourceTree = "<absolute>"; };
 		EA39A00919838AA90025FB5E /* UIButton+DZLThemer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+DZLThemer.h"; sourceTree = "<group>"; };
 		EA39A00A19838AA90025FB5E /* UIButton+DZLThemer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+DZLThemer.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -173,7 +175,7 @@
 		EA11994519831C5C009AAB36 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				EA11999B1983858D009AAB36 /* DZLThemer Light-Info.plist */,
+				4FF37EDA19AF590900C22C7C /* DZLThemer Light-Info.plist */,
 				EA11994619831C5C009AAB36 /* DZLThemer Dark-Info.plist */,
 				EA11994719831C5C009AAB36 /* InfoPlist.strings */,
 				EA11994A19831C5C009AAB36 /* main.m */,
@@ -322,6 +324,7 @@
 				EA11994919831C5C009AAB36 /* InfoPlist.strings in Resources */,
 				EA11997F198328DC009AAB36 /* DarkTheme.plist in Resources */,
 				EA11995219831C5C009AAB36 /* Main.storyboard in Resources */,
+				4FF37EDC19AF591700C22C7C /* DZLThemer Dark-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +342,7 @@
 			files = (
 				EA1199921983858D009AAB36 /* LightTheme.plist in Resources */,
 				EA1199931983858D009AAB36 /* Images.xcassets in Resources */,
+				4FF37EDB19AF590900C22C7C /* DZLThemer Light-Info.plist in Resources */,
 				EA1199941983858D009AAB36 /* InfoPlist.strings in Resources */,
 				EA1199951983858D009AAB36 /* DarkTheme.plist in Resources */,
 				EA1199961983858D009AAB36 /* Main.storyboard in Resources */,

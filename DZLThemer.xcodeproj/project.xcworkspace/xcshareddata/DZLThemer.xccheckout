@@ -10,29 +10,29 @@
 	<string>DZLThemer</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>176ED446-D63C-494E-8D1B-759E5BC9A69F</key>
+		<key>7B4D55EDEC54389B0F583639AEC86B329A16DF79</key>
 		<string>ssh://github.com/samdods/DZLThemer.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>DZLThemer.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>176ED446-D63C-494E-8D1B-759E5BC9A69F</key>
+		<key>7B4D55EDEC54389B0F583639AEC86B329A16DF79</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>ssh://github.com/samdods/DZLThemer.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>176ED446-D63C-494E-8D1B-759E5BC9A69F</string>
+	<string>7B4D55EDEC54389B0F583639AEC86B329A16DF79</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>176ED446-D63C-494E-8D1B-759E5BC9A69F</string>
+			<string>7B4D55EDEC54389B0F583639AEC86B329A16DF79</string>
 			<key>IDESourceControlWCCName</key>
 			<string>DZLThemer</string>
 		</dict>
